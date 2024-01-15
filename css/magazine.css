@@ -1,6 +1,6 @@
 body{
-	overflow:hidden;
-	/* overflow-x: hidden; */
+	/* overflow:hidden; */
+	overflow-x: hidden;
 	/* background-color:#6d93be; */
 	background-color: #d7d7d7;
 	background-image: linear-gradient(147deg, #d7d7d7 0%, #606060 74%);
