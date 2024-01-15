@@ -3,7 +3,7 @@ body{
 	overflow-x: hidden;
 	/* background-color:#6d93be; */
 	background-color: #d7d7d7;
-	background-image: linear-gradient(147deg, #d7d7d7 0%, #606060 74%);
+	background-image: linear-gradient(147deg, #4f4f4f 0%, #090909 75%);
 	margin:0;
 	padding:0;
 }
@@ -301,7 +301,7 @@ video{
 
 .magazine-viewport .previous-button-hover,
 .magazine-viewport .next-button-hover{
-	background-color:rgba(0,0,0, 0.2);
+	background-color:rgba(216, 216, 216, 0.5);
 }
 
 .magazine-viewport .previous-button-hover,
