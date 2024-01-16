@@ -20,6 +20,10 @@ body{
 	cursor: pointer;
 	text-decoration: none;
 	display: flex;
+
+	/* centrar */
+	/* top: 50%; 
+	transform: translateY(-50%); */
   }
   
   .cv {
