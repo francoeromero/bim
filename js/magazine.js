@@ -383,3 +383,23 @@ function calculateBound(d) {
 		
 	return bound;
 }
+
+
+let flecha = document.getElementById('flechaMenu');
+let menu = document.querySelector('.menu');
+let menuAbierto = false;
+
+flecha.addEventListener('click', function(){
+    if (menuAbierto) {
+        menu.style.left = '0rem';
+        flecha.classList.remove('bi-chevron-compact-right');
+        flecha.classList.add('bi-chevron-compact-left');
+    } else {
+        menu.style.left = '-14rem';
+        flecha.classList.remove('bi-chevron-compact-left');
+        flecha.classList.add('bi-chevron-compact-right');
+		
+    }
+    
+    menuAbierto = !menuAbierto;
+});
