@@ -23,10 +23,11 @@ body{
     left: 14rem;
     top: 50%;
     transform: translateY(-50%);
-    scale: 3;
+    scale: 5;
     cursor: pointer;
     animation: bounceAnimation 2s infinite;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+
 }
 
 /* barra menu */
@@ -34,7 +35,8 @@ body{
 	position: absolute; 
 	width: 14rem; 
 	height: 100vh; 
-	background: rgb(17, 18, 24); 
+	background-color: #d7d7d7;
+	background-image: linear-gradient(147deg, #4f4f4f 0%, #090909 75%);
 	z-index: 6;
 	font-family: sans-serif;
 	transition: 1s;
@@ -47,6 +49,9 @@ body{
 }
 .menu ul{
 	margin-left: -2.5rem;
+}
+.myname{
+	user-select: none;
 }
 .title{
 	font-weight: bold;
@@ -73,8 +78,9 @@ body{
 	padding-top: 0.1rem;
 	padding-bottom: 0.1rem;
 	font-size: 0.8rem;
+	font-weight: bold;
 	background-color :#0a3117;
-	background-image: linear-gradient(315deg, #0f7431 0%, #18697f 74%);
+	background-image: linear-gradient(315deg, #1bb84f 0%, #1e6b80 74%);
 	user-select: none;
 }
 
@@ -92,6 +98,19 @@ body{
 }
 
 /* iconos de contacto */
+.contacto{
+	height: 20rem;
+	width: 7rem;
+	border-bottom-left-radius: 2rem;
+	border-top-left-radius: 2rem;
+	/* background-color: #d7d7d7; */
+	background-image: linear-gradient(147deg, rgba(79, 79, 79, .6) 0%, rgba(9, 9, 9, .6) 75%);
+	z-index: 9;
+	position: absolute;
+	right: 0;
+	height: 50vh;
+	margin-top: 13rem;
+}
 .wp, .tel, .cv {
 	position: fixed;
 	z-index: 9;
@@ -131,6 +150,11 @@ body{
   .wp p, .tel p, .cv p {
 	/* display: none; */
 	/* height: 1.5rem; */
+	border-image: linear-gradient(315deg, #1bb84f 0%, #1e6b80 74%);
+	border-image-slice: 1;
+	border-width: 8px;
+	border-style: solid;
+
 	font-family: 'Poiret One', sans-serif !important;
 	font-weight: bold;
 	height: 2rem;
