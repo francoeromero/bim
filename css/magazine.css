@@ -80,7 +80,7 @@ body{
 	font-size: 0.8rem;
 	font-weight: bold;
 	background-color :#0a3117;
-	background-image: linear-gradient(315deg, #1bb84f 0%, #1e6b80 74%);
+	background-image: linear-gradient(315deg, #1ab94f 0%, #1d6c82 74%);
 	user-select: none;
 }
 
@@ -104,7 +104,7 @@ body{
 	border-bottom-left-radius: 2rem;
 	border-top-left-radius: 2rem;
 	/* background-color: #d7d7d7; */
-	background-image: linear-gradient(147deg, rgba(79, 79, 79, .6) 0%, rgba(9, 9, 9, .6) 75%);
+	background-image: linear-gradient(147deg, rgba(74, 74, 74, 0.6) 0%, rgba(9, 9, 9, .6) 75%);
 	z-index: 9;
 	position: absolute;
 	right: 0;
@@ -150,7 +150,7 @@ body{
   .wp p, .tel p, .cv p {
 	/* display: none; */
 	/* height: 1.5rem; */
-	border-image: linear-gradient(315deg, #1bb84f 0%, #1e6b80 74%);
+	border-image: linear-gradient(315deg, #1bb84f 0%, #1d6d83 74%);
 	border-image-slice: 1;
 	border-width: 8px;
 	border-style: solid;
