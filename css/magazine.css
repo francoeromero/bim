@@ -99,16 +99,17 @@ body{
 
 /* iconos de contacto */
 .contacto{
-	width: 6rem;
-	border-bottom-left-radius: 2rem;
-	border-top-left-radius: 2rem;
+	width: 4.5rem;
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 1rem;
 	/* background-color: #d7d7d7; */
 	background-image: linear-gradient(147deg, rgba(74, 74, 74, 0.6) 0%, rgba(9, 9, 9, .6) 75%);
 	z-index: 9;
 	position: absolute;
 	right: 0;
-	height: 50vh;
-	margin-top: 13rem;
+	height: 18rem;
+	top: 50%;
+	transform: translateY(-50%);
 }
 .wp, .tel, .cv {
 	position: fixed;
@@ -116,7 +117,7 @@ body{
 	/* width: 20rem; */
 	right: 0;
 	bottom: 0;
-	margin-right: 2rem;
+	margin-right: 1rem;
 	cursor: pointer;
 	text-decoration: none;
 	display: flex;
@@ -127,17 +128,17 @@ body{
   }
   
   .cv {
-	margin-bottom: 27rem;
+	margin-bottom: 13rem;
 	animation: bounce 6s infinite ease-in-out;
   }
   
   .tel {
-	margin-bottom: 19rem;
+	margin-bottom: 7rem;
 	animation: bounce 6s infinite ease-in-out;
   }
   
   .wp {
-	margin-bottom: 12rem;
+	margin-bottom: 1rem;
 	animation: bounce 6s infinite ease-in-out;
   }
   .wp img, .tel img, .cv img{
