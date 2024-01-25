@@ -99,8 +99,7 @@ body{
 
 /* iconos de contacto */
 .contacto{
-	height: 20rem;
-	width: 7rem;
+	width: 6rem;
 	border-bottom-left-radius: 2rem;
 	border-top-left-radius: 2rem;
 	/* background-color: #d7d7d7; */
