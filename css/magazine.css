@@ -184,8 +184,6 @@ body{
   }
   @keyframes girar{
 	0%{transform: rotate(0deg);}
-	/* 20%{transform: rotate(360deg);}
-	30%{transform: rotate(500deg);} */
 	100%{transform: rotate(720deg);}
   }
 @keyframes aparece{
