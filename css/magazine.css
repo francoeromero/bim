@@ -641,3 +641,15 @@ video{
 		display: none;
 	}
 }
+
+@media(max-width:800px){
+	body{
+		transform: rotate(-90deg);
+	}
+	.thumbnails{
+		display: none;
+	}
+	#copy{
+		display: none;
+	}
+}
